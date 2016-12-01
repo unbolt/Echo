@@ -1,0 +1,26 @@
+############################################################
+#
+# Home Assistant Default View
+#
+############################################################
+
+default_view:
+  view: yes
+  entities:
+    - updater.updater
+#    - group.travel
+#    - group.radio
+    - sensor.biggs_cpu_load
+    - sensor.wedge_cpu_load
+
+Travel:
+#  - sensor.graeme_to_work
+#  - sensor.graeme_work_to_home
+#  - sensor.graeme_to_home
+#  - sensor.aileen_to_work
+#  - sensor.aileen_work_to_home
+#  - sensor.aileen_to_home
+
+Radio:
+  - input_select.radio_player
+  - input_select.radio_station 

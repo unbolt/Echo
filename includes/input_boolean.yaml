@@ -1,0 +1,17 @@
+############################################################
+#
+# Home Assistant Input Booleans 
+#
+############################################################
+
+notify_nest:
+  name: State variable of front door event
+  initial: off
+
+panic:
+  name: Panic Button
+  initial: off
+
+visitor:
+  name: Evening Visitor Mode 
+  initial: off

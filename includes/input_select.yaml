@@ -1,0 +1,30 @@
+############################################################
+#
+# Home Assistant Input Selects
+#
+############################################################
+
+############################################################
+#
+# Home Assistant Radio Controls
+#
+############################################################
+
+radio_station:
+  name: Radio Station
+  options:
+    - Sunshine
+    - BBC Radio 2
+    - Classic FM 
+    - "None"
+  initial: "None"
+  icon: mdi:radio
+radio_player:
+  name: Radio Player
+  options:
+    - Living Room 
+    - Kitchen 
+    - Bedroom
+    - "None"
+  initial: "None"
+  icon: mdi:airplay
