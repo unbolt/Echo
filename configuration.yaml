@@ -43,16 +43,6 @@ http:
 # Track the sun
 sun:
 
-# Weather Prediction
-sensor:
-  platform: yweather
-  monitored_conditions:
-   -  weather
-   -  weather_current
-   -  temperature
-   -  temp_min
-   -  temp_max
-
 # Try and find the samsung TV
 ifttt:
   key: !secret ifttt_key
