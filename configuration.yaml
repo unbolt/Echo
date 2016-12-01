@@ -66,5 +66,5 @@ ifttt:
 
 
 
-device_tracker: !include includes/device_trackers.yaml
+#device_tracker: !include includes/device_trackers.yaml
 
