@@ -13,23 +13,25 @@ servers:
     - group.chocobo
   icon: mdi:server
 
-biggs:
-  - sensor.biggs_disk_use_percent
-  - sensor.biggs_disk_use
-  - sensor.biggs_disk_free
-  - sensor.biggs_memory_use_percent
-  - sensor.biggs_memory_use
-  - sensor.biggs_memory_free
-  - sensor.biggs_swap_use_percent
-  - sensor.biggs_swap_use
-  - sensor.biggs_swap_free
-  - sensor.biggs_processor_load
-  - sensor.biggs_process_running
-  - sensor.biggs_process_total
-  - sensor.biggs_process_thread
-  - sensor.biggs_process_sleeping
+Biggs:
+  - sensor.biggs_cpu_load 
+  - sensor.biggs_disk_use_percent #yes
+  - sensor.biggs_disk_use #yes
+  - sensor.biggs_disk_free #yes
+  - sensor.biggs_ram_use 
+  - sensor.biggs_memory_use_percent #no
+  - sensor.biggs_memory_use #no
+  - sensor.biggs_memory_free #no
+  - sensor.biggs_swap_use_percent #no
+  - sensor.biggs_swap_use #yes
+  - sensor.biggs_swap_free #yes
+  - sensor.biggs_processor_load #no
+  - sensor.biggs_process_running #no
+  - sensor.biggs_process_total #no
+  - sensor.biggs_process_thread #no
+  - sensor.biggs_process_sleeping #no
 
-wedge:
+Wedge:
   - sensor.wedge_cpu_load
   - sensor.wedge_disk_use
   - sensor.wedge_ram_use
@@ -42,7 +44,7 @@ wedge:
   - sensor.wedge_glance_storage
   - sensor.wedge_glance_temperature
 
-chocobo:
+Chocobo:
   - sensor.chocobo_cpu_load
   - sensor.chocobo_disk_use
   - sensor.chocobo_ram_use
