@@ -14,25 +14,49 @@ servers:
   icon: mdi:server
 
 Biggs:
+  # CPU Load
   - sensor.biggs_cpu_load 
-  - sensor.biggs_disk_use 
+  # Disk free space
   - sensor.biggs_disk_free 
-  - sensor.biggs_ram_use 
+  # Disk use %
+  - sensor.biggs_disk_use_2
+  # Ram free
+  - sensor.biggs_ram_free
+  # Ram use %
+  - sensor.biggs_ram_use_2
+  # Running
   - sensor.biggs_running 
+  # Sleeping
   - sensor.biggs_sleeping 
 
 Wedge:
-  - sensor.wedge_cpu_load 
-  - sensor.wedge_disk_use 
+  # CPU Load
+  - sensor.wedge_cpu_load  
+  # Disk free space
   - sensor.wedge_disk_free 
-  - sensor.wedge_ram_use 
+  # Disk use %
+  - sensor.wedge_disk_use_2
+  # Ram free
+  - sensor.wedge_ram_free
+  # Ram use %
+  - sensor.wedge_ram_use
+  # Running
   - sensor.wedge_running 
+  # Sleeping
   - sensor.wedge_sleeping 
 
 Chocobo:
-  - sensor.chocobo_cpu_load 
-  - sensor.chocobo_disk_use 
+  # CPU Load
+  - sensor.chocobo_cpu_load  
+  # Disk free space
   - sensor.chocobo_disk_free 
-  - sensor.chocobo_ram_use 
+  # Disk use %
+  - sensor.chocobo_disk_use
+  # Ram free
+  - sensor.chocobo_ram_free
+  # Ram use %
+  - sensor.chocobo_ram_use
+  # Running
   - sensor.chocobo_running 
+  # Sleeping
   - sensor.chocobo_sleeping 
