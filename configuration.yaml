@@ -40,6 +40,26 @@ http:
   # Uncomment this to add a password (recommended!)
   api_password: !secret http_password
 
+
+mqtt:
+  broker: 192.168.1.69
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: !secret mqtt_password
+  password: !secret mqtt_username
+  protocol: 3.1
+  birth_message:
+    topic: 'hass/status'
+    payload: 'online'
+    qos: 1
+    retain: true
+  will_message:
+    topic: 'hass/status'
+    payload: 'offline'
+    qos: 1
+    retain: true
+
 device_tracker:
   - platform: owntracks
 
