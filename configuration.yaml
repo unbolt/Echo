@@ -1,0 +1,72 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 52.0684
+  longitude: -2.6349
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 94
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/London
+
+zone:
+  name: !secret home_name
+  latitude: !secret home_longitude
+  longitude: !secret home_latitude
+  radius: 200
+  icon: mdi:home
+
+zone 2:
+  name: !secret work_name
+  latitude: !secret work_longitude
+  longitude: !secret work_latitude
+  radius: 200
+  icon: mdi:glasses
+
+zone 3:
+  name: !secret s_work_name
+  latitude: !secret s_work_longitude
+  longitude: !secret s_work_latitude
+  radius: 200
+  icon: mdi:school
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret http_password
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+
+# Track the sun
+sun:
+
+# Weather Prediction
+sensor:
+  platform: yweather
+  monitored_conditions:
+   -  weather
+   -  weather_current
+   -  temperature
+   -  temp_min
+   -  temp_max
+
+# Try and find the samsung TV
+ifttt:
+  key: !secret ifttt_key
+
+
