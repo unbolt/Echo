@@ -14,7 +14,7 @@ servers:
   icon: mdi:server
 
 Biggs:
-  - sensor.biggs_glances_disk_use_percent
+  - sensor.biggs_disk_use_percent
 #  - sensor.biggs_disk_free
 #  - sensor.biggs_memory_use_percent
 #  - sensor.biggs_processor_load
