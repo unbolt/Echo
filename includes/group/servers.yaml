@@ -9,23 +9,16 @@ servers:
   view: yes
   entities:
     - group.kweh
+    - group.wark
   icon: mdi:server
 
 Kweh:
   - sensor.kweh_cpu_load
-#  - sensor.server_disk_free
   - sensor.kweh_disk_use
-#  - sensor.server_disk_use_2
-#  - sensor.server_ram_free
   - sensor.kweh_ram_use
-#  - sensor.server_ram_use_2
   - sensor.kweh_running
   - sensor.kweh_sleeping
-#  - sensor.server_swap_free
-  - sensor.kweh_swap_use
-#  - sensor.server_swap_use_2
-#  - sensor.server_thread
-#  - sensor.server_total
+# - sensor.kweh_swap_use
   - sensor.kweh_temperature_ambient
   - sensor.kweh_temperature_chipset
   - sensor.kweh_temperature_exhaust
@@ -40,3 +33,32 @@ Kweh:
   - sensor.kweh_glance_processor
   - sensor.kweh_glance_storage
   - sensor.kweh_glance_temperature
+
+Wark:
+  - sensor.wark_cpu_load
+  - sensor.wark_disk_use
+#  - sensor.server_disk_use_2
+#  - sensor.server_ram_free
+  - sensor.wark_ram_use
+#  - sensor.server_ram_use_2
+  - sensor.wark_running
+  - sensor.wark_sleeping
+#  - sensor.server_swap_free
+#  - sensor.wark_swap_use
+#  - sensor.server_swap_use_2
+#  - sensor.server_thread
+#  - sensor.server_total
+  - sensor.wark_temperature_ambient
+  - sensor.wark_temperature_chipset
+  - sensor.wark_temperature_exhaust
+  - sensor.wark_temperature_memory
+  - sensor.wark_temperature_processor
+  - sensor.wark_glance_bios
+  - sensor.wark_glance_fans
+  - sensor.wark_fan
+  - sensor.wark_glance_memory
+  - sensor.wark_glance_network
+  - sensor.wark_glance_power
+  - sensor.wark_glance_processor
+  - sensor.wark_glance_storage
+  - sensor.wark_glance_temperature
