@@ -8,8 +8,8 @@ default_view:
   view: yes
   entities:
     - updater.updater
-#    - group.travel
-#    - group.radio
+    - group.travel
+    - group.radio
     - sensor.biggs_cpu_load
     - sensor.wedge_cpu_load
 
