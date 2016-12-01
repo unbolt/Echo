@@ -44,7 +44,6 @@ http:
 # Track the sun
 sun:
 
-# Try and find the samsung TV
 ifttt:
   key: !secret ifttt_key
 
