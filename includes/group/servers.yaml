@@ -8,57 +8,48 @@ servers:
   name: Servers
   view: yes
   entities:
-    - group.kweh
-    - group.wark
+    - group.biggs
+    - group.wedge
   icon: mdi:server
 
-Kweh:
-  - sensor.kweh_cpu_load
-  - sensor.kweh_disk_use
-  - sensor.kweh_ram_use
-  - sensor.kweh_running
-  - sensor.kweh_sleeping
-# - sensor.kweh_swap_use
-  - sensor.kweh_temperature_ambient
-  - sensor.kweh_temperature_chipset
-  - sensor.kweh_temperature_exhaust
-  - sensor.kweh_temperature_memory
-  - sensor.kweh_temperature_processor
-  - sensor.kweh_glance_bios
-  - sensor.kweh_glance_fans
-  - sensor.kweh_fan
-  - sensor.kweh_glance_memory
-  - sensor.kweh_glance_network
-  - sensor.kweh_glance_power
-  - sensor.kweh_glance_processor
-  - sensor.kweh_glance_storage
-  - sensor.kweh_glance_temperature
+Biggs:
+  - sensor.biggs_cpu_load
+  - sensor.biggs_disk_use
+  - sensor.biggs_ram_use
+  - sensor.biggs_running
+  - sensor.biggs_sleeping
+  - sensor.biggs_temperature_ambient
+  - sensor.biggs_temperature_chipset
+  - sensor.biggs_temperature_exhaust
+  - sensor.biggs_temperature_memory
+  - sensor.biggs_temperature_processor
+  - sensor.biggs_glance_bios
+  - sensor.biggs_glance_fans
+  - sensor.biggs_fan
+  - sensor.biggs_glance_memory
+  - sensor.biggs_glance_network
+  - sensor.biggs_glance_power
+  - sensor.biggs_glance_processor
+  - sensor.biggs_glance_storage
+  - sensor.biggs_glance_temperature
 
-Wark:
-  - sensor.wark_cpu_load
-  - sensor.wark_disk_use
-#  - sensor.server_disk_use_2
-#  - sensor.server_ram_free
-  - sensor.wark_ram_use
-#  - sensor.server_ram_use_2
-  - sensor.wark_running
-  - sensor.wark_sleeping
-#  - sensor.server_swap_free
-#  - sensor.wark_swap_use
-#  - sensor.server_swap_use_2
-#  - sensor.server_thread
-#  - sensor.server_total
-  - sensor.wark_temperature_ambient
-  - sensor.wark_temperature_chipset
-  - sensor.wark_temperature_exhaust
-  - sensor.wark_temperature_memory
-  - sensor.wark_temperature_processor
-  - sensor.wark_glance_bios
-  - sensor.wark_glance_fans
-  - sensor.wark_fan
-  - sensor.wark_glance_memory
-  - sensor.wark_glance_network
-  - sensor.wark_glance_power
-  - sensor.wark_glance_processor
-  - sensor.wark_glance_storage
-  - sensor.wark_glance_temperature
+Wedge:
+  - sensor.wedge_cpu_load
+  - sensor.wedge_disk_use
+  - sensor.wedge_ram_use
+  - sensor.wedge_running
+  - sensor.wedge_sleeping
+  - sensor.wedge_temperature_ambient
+  - sensor.wedge_temperature_chipset
+  - sensor.wedge_temperature_exhaust
+  - sensor.wedge_temperature_memory
+  - sensor.wedge_temperature_processor
+  - sensor.wedge_glance_bios
+  - sensor.wedge_glance_fans
+  - sensor.wedge_fan
+  - sensor.wedge_glance_memory
+  - sensor.wedge_glance_network
+  - sensor.wedge_glance_power
+  - sensor.wedge_glance_processor
+  - sensor.wedge_glance_storage
+  - sensor.wedge_glance_temperature

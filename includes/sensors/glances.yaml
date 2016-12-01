@@ -5,9 +5,9 @@
 ############################################################
 
 - platform: glances
-  name: Kweh
-  host: !secret glances_kweh_host
-  port: !secret glances_kweh_port 
+  name: Biggs
+  host: !secret glances_biggs_host
+  port: !secret glances_biggs_port 
   resources:
     - 'disk_use_percent'
     - 'disk_use'
@@ -25,9 +25,9 @@
     - 'process_sleeping'
 
 - platform: glances
-  name: Wark
-  host: !secret glances_wark_host
-  port: !secret glances_wark_port 
+  name: Wedge
+  host: !secret glances_wedge_host
+  port: !secret glances_wedge_port 
   resources:
     - 'disk_use_percent'
     - 'disk_use'
