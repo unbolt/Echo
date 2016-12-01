@@ -19,7 +19,7 @@ Biggs:
   # Disk free space
   - sensor.biggs_disk_free 
   # Disk use %
-  - sensor.biggs_disk_use_2
+  - sensor.biggs_disk_use
   # Ram free
   - sensor.biggs_ram_free
   # Ram use %
