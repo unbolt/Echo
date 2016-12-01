@@ -42,8 +42,8 @@ http:
 
 
 mqtt:
-  broker: 192.168.1.69
-  port: 8883
+  broker: !secret mqtt_server
+  port: !secret mqtt_port
   client_id: home-assistant-1
   keepalive: 60
   username: !secret mqtt_password
