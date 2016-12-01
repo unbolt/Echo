@@ -54,3 +54,5 @@ ifttt:
 # Merge List
 sensor: !include_dir_merge_list includes/sensors
 
+# Merged Named
+group: !include_dir_merge_named includes/group
