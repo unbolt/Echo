@@ -13,7 +13,7 @@ servers:
     - group.chocobo
   icon: mdi:server
 
-Biggs:
+biggs:
   - sensor.biggs_disk_use_percent
 #  - sensor.biggs_disk_free
 #  - sensor.biggs_memory_use_percent
@@ -21,7 +21,7 @@ Biggs:
 #  - sensor.biggs_process_running
 #  - sensor.biggs_process_sleeping
 
-Wedge:
+wedge:
   - sensor.wedge_cpu_load
   - sensor.wedge_disk_use
   - sensor.wedge_ram_use
@@ -34,7 +34,7 @@ Wedge:
   - sensor.wedge_glance_storage
   - sensor.wedge_glance_temperature
 
-Chocobo:
+chocobo:
   - sensor.chocobo_cpu_load
   - sensor.chocobo_disk_use
   - sensor.chocobo_ram_use
