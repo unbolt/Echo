@@ -10,6 +10,7 @@ servers:
   entities:
     - group.biggs
     - group.wedge
+    - group.chocobo
   icon: mdi:server
 
 Biggs:
@@ -37,3 +38,16 @@ Wedge:
   - sensor.wedge_glance_processor
   - sensor.wedge_glance_storage
   - sensor.wedge_glance_temperature
+
+Chocobo:
+  - sensor.chocobo_cpu_load
+  - sensor.chocobo_disk_use
+  - sensor.chocobo_ram_use
+  - sensor.chocobo_running
+  - sensor.chocobo_sleeping
+  - sensor.chocobo_glance_memory
+  - sensor.chocobo_glance_network
+  - sensor.chocobo_glance_power
+  - sensor.chocobo_glance_processor
+  - sensor.chocobo_glance_storage
+  - sensor.chocobo_glance_temperature

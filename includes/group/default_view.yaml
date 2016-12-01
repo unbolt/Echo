@@ -12,6 +12,7 @@ default_view:
     - group.radio
     - sensor.biggs_cpu_load
     - sensor.wedge_cpu_load
+    - sensor.chocobo_cpu_load
 
 Travel:
 #  - sensor.graeme_to_work
