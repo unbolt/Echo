@@ -1,0 +1,12 @@
+sensor.biggs_cpu_load:
+  friendly_name: "Biggs CPU"
+
+sensor.wedge_cpu_load:
+  friendly_name: "Wedge CPU"
+
+
+group.travel:
+  order: 1
+
+group.radio:
+  order: 2
