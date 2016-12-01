@@ -15,10 +15,12 @@ servers:
 
 Biggs:
   - sensor.biggs_cpu_load #yes
-  - sensor.biggs_disk_use_percent #yes
-#  - sensor.biggs_disk_use #yes
+#  - sensor.biggs_disk_use_percent #no
+  - sensor.biggs_disk_use #yes
   - sensor.biggs_disk_free #yes
   - sensor.biggs_ram_use #yes
+  - sensor.biggs_running #yes
+  - sensor.biggs_sleeping # yes
 #  - sensor.biggs_memory_use_percent #no
 #  - sensor.biggs_memory_use #no
 #  - sensor.biggs_memory_free #no
