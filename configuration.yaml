@@ -70,3 +70,6 @@ ifttt:
   key: !secret ifttt_key
 
 
+
+device_tracker: !include includes/device_trackers.yaml
+
