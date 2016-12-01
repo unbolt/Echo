@@ -14,22 +14,22 @@ servers:
   icon: mdi:server
 
 Biggs:
-  - sensor.biggs_cpu_load 
+  - sensor.biggs_cpu_load #yes
   - sensor.biggs_disk_use_percent #yes
-  - sensor.biggs_disk_use #yes
+#  - sensor.biggs_disk_use #yes
   - sensor.biggs_disk_free #yes
-  - sensor.biggs_ram_use 
-  - sensor.biggs_memory_use_percent #no
-  - sensor.biggs_memory_use #no
-  - sensor.biggs_memory_free #no
-  - sensor.biggs_swap_use_percent #no
-  - sensor.biggs_swap_use #yes
-  - sensor.biggs_swap_free #yes
-  - sensor.biggs_processor_load #no
-  - sensor.biggs_process_running #no
-  - sensor.biggs_process_total #no
-  - sensor.biggs_process_thread #no
-  - sensor.biggs_process_sleeping #no
+  - sensor.biggs_ram_use #yes
+#  - sensor.biggs_memory_use_percent #no
+#  - sensor.biggs_memory_use #no
+#  - sensor.biggs_memory_free #no
+#  - sensor.biggs_swap_use_percent #no
+#  - sensor.biggs_swap_use #yes
+#  - sensor.biggs_swap_free #yes
+#  - sensor.biggs_processor_load #no
+#  - sensor.biggs_process_running #no
+#  - sensor.biggs_process_total #no
+#  - sensor.biggs_process_thread #no
+#  - sensor.biggs_process_sleeping #no
 
 Wedge:
   - sensor.wedge_cpu_load

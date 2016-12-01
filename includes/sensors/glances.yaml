@@ -5,7 +5,7 @@
 ############################################################
 
 - platform: glances
-  name: biggs
+  name: Biggs
   host: !secret glances_biggs_host
   port: !secret glances_biggs_port 
   resources:
@@ -25,7 +25,7 @@
       - 'process_sleeping'
 
 - platform: glances
-  name: wedge
+  name: Wedge
   host: !secret glances_wedge_host
   port: !secret glances_wedge_port 
   resources:
@@ -45,7 +45,7 @@
       - 'process_sleeping'
 
 - platform: glances
-  name: chocobo
+  name: Chocobo
   host: !secret glances_chocobo_host
   port: !secret glances_chocobo_port 
   resources:
