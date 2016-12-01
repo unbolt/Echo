@@ -1,0 +1,12 @@
+############################################################
+#
+# Home Assistant iCloud trackers
+#
+############################################################
+
+- platform: icloud
+   username: !secret icloud_dan_username
+   password: !secret icloud_dan_password
+   track_new_devices: yes
+   interval_seconds: 12
+   consider_home: 300 
