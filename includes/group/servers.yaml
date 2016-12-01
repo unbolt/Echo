@@ -14,12 +14,12 @@ servers:
   icon: mdi:server
 
 Biggs:
-  - sensor.biggs_disk_use_percent
-  - sensor.biggs_disk_free
-  - sensor.biggs_memory_use_percent
-  - sensor.biggs_processor_load
-  - sensor.biggs_process_running
-  - sensor.biggs_process_sleeping
+  - sensor.biggs_glances_disk_use_percent
+#  - sensor.biggs_disk_free
+#  - sensor.biggs_memory_use_percent
+#  - sensor.biggs_processor_load
+#  - sensor.biggs_process_running
+#  - sensor.biggs_process_sleeping
 
 Wedge:
   - sensor.wedge_cpu_load
