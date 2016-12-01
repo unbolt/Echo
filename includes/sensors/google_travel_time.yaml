@@ -1,0 +1,21 @@
+############################################################
+#
+# Google Travel Time Sensors
+#
+############################################################
+
+- platform: google_travel_time
+  name: Dan Work to Home 
+  api_key: !secret google_travel_api
+  origin: !secret work_entity
+  destination: zone.home
+  options:
+    mode: driving
+
+- platform: google_travel_time
+  name: San Work to Home
+  api_key: !secret google_travel_api
+  origin: !secret s_work_entity
+  destination: zone.home
+  options:
+    mode: driving

@@ -15,10 +15,10 @@ default_view:
 
 Travel:
 #  - sensor.graeme_to_work
-#  - sensor.graeme_work_to_home
+  - sensor.dan_work_to_home
 #  - sensor.graeme_to_home
 #  - sensor.aileen_to_work
-#  - sensor.aileen_work_to_home
+  - sensor.san_work_to_home
 #  - sensor.aileen_to_home
 
 Radio:
