@@ -4,6 +4,9 @@ sensor.biggs_cpu_load:
 sensor.wedge_cpu_load:
   friendly_name: "Wedge CPU"
 
+sensor.chocobo_cpu_load:
+  friendly_name: "Chocobo CPU"
+
 
 group.travel:
   order: 1
