@@ -27,3 +27,11 @@
   destination: zone.home
   options:
     mode: driving
+
+- platform: google_travel_time
+  name: San to Home
+  api_key: !secret google_travel_api
+  origin: device_tracker.san_galaxy
+  destination: zone.home
+  options:
+    mode: driving
