@@ -5,7 +5,7 @@
 ############################################################
 
 - platform: google_travel_time
-  name: "Dan Work &rarr; Home"
+  name: Dan Work to Home
   api_key: !secret google_travel_api
   origin: !secret work_entity
   destination: zone.home
@@ -13,7 +13,7 @@
     mode: driving
 
 - platform: google_travel_time
-  name: "Dan &rarr; Home"
+  name: Dan to Home
   api_key: !secret google_travel_api
   origin: device_tracker.dan_dansiphone
   destination: zone.home
@@ -21,7 +21,7 @@
     mode: driving
 
 - platform: google_travel_time
-  name: "San Work &rarr; Home"
+  name: San Work to Home
   api_key: !secret google_travel_api
   origin: !secret s_work_entity
   destination: zone.home
