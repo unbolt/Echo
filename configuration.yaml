@@ -50,8 +50,6 @@ http:
 mqtt:
   broker: !secret mqtt_server
   port: !secret mqtt_port
-  client_id: home-assistant-1
-  keepalive: 60
   username: !secret mqtt_password
   password: !secret mqtt_username
 
