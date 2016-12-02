@@ -11,21 +11,21 @@ zone:
   name: !secret home_name
   latitude: !secret home_longitude
   longitude: !secret home_latitude
-  radius: 200
+  radius: 500
   icon: mdi:home
 
 zone 2:
   name: !secret work_name
   latitude: !secret work_longitude
   longitude: !secret work_latitude
-  radius: 200
+  radius: 500
   icon: mdi:glasses
 
 zone 3:
   name: !secret s_work_name
   latitude: !secret s_work_longitude
   longitude: !secret s_work_latitude
-  radius: 200
+  radius: 500
   icon: mdi:school
 
 history:
