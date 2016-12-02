@@ -50,8 +50,8 @@ http:
 mqtt:
   broker: !secret mqtt_server
   port: !secret mqtt_port
-  username: !secret mqtt_password
-  password: !secret mqtt_username
+  username: !secret mqtt_username
+  password: !secret mqtt_password
 
 device_tracker:
   - platform: owntracks
