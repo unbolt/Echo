@@ -38,6 +38,8 @@ discovery:
 
 logger:
 
+logbook:
+
 upnp:
 
 http:
