@@ -17,6 +17,7 @@ default_view:
 Travel:
 #  - sensor.graeme_to_work
   - sensor.dan_work_to_home
+  - sensor.dan_to_home
 #  - sensor.graeme_to_home
 #  - sensor.aileen_to_work
   - sensor.san_work_to_home
