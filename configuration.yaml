@@ -45,8 +45,8 @@ upnp:
 http:
   # Uncomment this to add a password (recommended!)
   api_password: !secret http_password
-#  ssl_certificate: !secret http_cert
-#  ssl_key: !secret http_key
+  ssl_certificate: !secret http_cert
+  ssl_key: !secret http_key
 
 
 mqtt:
@@ -69,10 +69,13 @@ ifttt:
 #device_tracker: !include includes/device_trackers.yaml
 input_boolean: !include includes/input_boolean.yaml
 input_select: !include includes/input_select.yaml
-alexa: !include_dir_merge_list includes/alexa
 
 # Merge List
 sensor: !include_dir_merge_list includes/sensors
 
 # Merged Named
 group: !include_dir_merge_named includes/group
+
+# Named
+alexa:
+    intents: !include_dir_named includes/alexa
