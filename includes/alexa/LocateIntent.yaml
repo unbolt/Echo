@@ -1,8 +1,4 @@
 LocateIntent:
-  action:
-    service: notify.notify
-    data_template:
-      message: The location of {{ User }} has been queried via Alexa.
   speech:
     type: plaintext
     text: >
@@ -13,7 +9,3 @@ LocateIntent:
       {%- else -%}
         I am sorry, I do not know where {{ User }} is.
       {%- endfor -%}
-  card:
-    type: simple
-    title: Sample title
-    content: Some more content
