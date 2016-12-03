@@ -69,6 +69,7 @@ ifttt:
 #device_tracker: !include includes/device_trackers.yaml
 input_boolean: !include includes/input_boolean.yaml
 input_select: !include includes/input_select.yaml
+alexa: !include_dir_merge_list includes/alexa
 
 # Merge List
 sensor: !include_dir_merge_list includes/sensors
