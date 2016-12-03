@@ -1,7 +1,6 @@
-LocateIntent:
-  speech:
-    type: plaintext
-    text: >
+speech:
+  type: plaintext
+  text: >
       {%- for state in states.device_tracker -%}
         {%- if state.name.lower() == User.lower() -%}
           {{ state.name }} is at {{ state.state }}
