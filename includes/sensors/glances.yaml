@@ -46,8 +46,8 @@
 
 - platform: glances
   name: Cid
-  host: !secret cid_wedge_host
-  port: !secret cid_wedge_port 
+  host: !secret glances_cid_host
+  port: !secret glances_cid_port 
   resources:
       - 'disk_use_percent'
       - 'disk_use'
