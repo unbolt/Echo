@@ -10,14 +10,15 @@ servers:
   entities:
     - group.biggs
     - group.wedge
+    - group.cid
     - group.chocobo
   icon: mdi:server
 
 Biggs:
   # CPU Load
-  - sensor.biggs_cpu_load 
+  - sensor.biggs_cpu_load
   # Disk free space
-  - sensor.biggs_disk_free 
+  - sensor.biggs_disk_free
   # Disk use %
   - sensor.biggs_disk_use
   # Ram free
@@ -25,15 +26,15 @@ Biggs:
   # Ram use %
   - sensor.biggs_ram_use_2
   # Running
-  - sensor.biggs_running 
+  - sensor.biggs_running
   # Sleeping
-  - sensor.biggs_sleeping 
+  - sensor.biggs_sleeping
 
 Wedge:
   # CPU Load
-  - sensor.wedge_cpu_load  
+  - sensor.wedge_cpu_load
   # Disk free space
-  - sensor.wedge_disk_free 
+  - sensor.wedge_disk_free
   # Disk use %
   - sensor.wedge_disk_use_2
   # Ram free
@@ -41,15 +42,31 @@ Wedge:
   # Ram use %
   - sensor.wedge_ram_use
   # Running
-  - sensor.wedge_running 
+  - sensor.wedge_running
   # Sleeping
-  - sensor.wedge_sleeping 
+  - sensor.wedge_sleeping
+
+Cid:
+  # CPU Load
+  - sensor.cid_cpu_load
+  # Disk free space
+  - sensor.cid_disk_free
+  # Disk use %
+  - sensor.cid_disk_use
+  # Ram free
+  - sensor.cid_ram_free
+  # Ram use %
+  - sensor.cid_ram_use_2
+  # Running
+  - sensor.cid_running
+  # Sleeping
+  - sensor.cid_sleeping 
 
 Chocobo:
   # CPU Load
-  - sensor.chocobo_cpu_load  
+  - sensor.chocobo_cpu_load
   # Disk free space
-  - sensor.chocobo_disk_free 
+  - sensor.chocobo_disk_free
   # Disk use %
   - sensor.chocobo_disk_use
   # Ram free
@@ -57,6 +74,6 @@ Chocobo:
   # Ram use %
   - sensor.chocobo_ram_use
   # Running
-  - sensor.chocobo_running 
+  - sensor.chocobo_running
   # Sleeping
-  - sensor.chocobo_sleeping 
+  - sensor.chocobo_sleeping

@@ -43,7 +43,6 @@ logbook:
 upnp:
 
 http:
-  # Uncomment this to add a password (recommended!)
   api_password: !secret http_password
   ssl_certificate: !secret http_cert
   ssl_key: !secret http_key

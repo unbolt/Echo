@@ -7,7 +7,7 @@
 - platform: glances
   name: Biggs
   host: !secret glances_biggs_host
-  port: !secret glances_biggs_port 
+  port: !secret glances_biggs_port
   resources:
       - 'disk_use_percent'
       - 'disk_use'
@@ -27,7 +27,27 @@
 - platform: glances
   name: Wedge
   host: !secret glances_wedge_host
-  port: !secret glances_wedge_port 
+  port: !secret glances_wedge_port
+  resources:
+      - 'disk_use_percent'
+      - 'disk_use'
+      - 'disk_free'
+      - 'memory_use_percent'
+      - 'memory_use'
+      - 'memory_free'
+      - 'swap_use_percent'
+      - 'swap_use'
+      - 'swap_free'
+      - 'processor_load'
+      - 'process_running'
+      - 'process_total'
+      - 'process_thread'
+      - 'process_sleeping'
+
+- platform: glances
+  name: Cid
+  host: !secret cid_wedge_host
+  port: !secret cid_wedge_port 
   resources:
       - 'disk_use_percent'
       - 'disk_use'
@@ -47,7 +67,7 @@
 - platform: glances
   name: Chocobo
   host: !secret glances_chocobo_host
-  port: !secret glances_chocobo_port 
+  port: !secret glances_chocobo_port
   resources:
       - 'disk_use_percent'
       - 'disk_use'
