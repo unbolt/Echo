@@ -60,7 +60,7 @@ Cid:
   # Running
   - sensor.cid_running
   # Sleeping
-  - sensor.cid_sleeping 
+  - sensor.cid_sleeping
 
 Chocobo:
   # CPU Load
